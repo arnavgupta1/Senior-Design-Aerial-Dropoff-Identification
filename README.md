@@ -7,14 +7,14 @@ This is the code repository aiming to implement an object detection model to ide
 - Scripts contain all scripts used to modify data and create metadata
 - [Detectron2](https://github.com/facebookresearch/detectron2) script contains training code for open source Detectron2 model meant for UC Merced Land Use dataset
 - MLP_UCMercedLandUse is a notebook containing preprocessing, training, and testing of the final model used for the project
-- Results Folder 
+- Results Folder
     - Final_Model.pth is the final trained model that achieved highest accuracy while running inference
     - Sheet tracking iterations of model hyperparameters and data transformations with accuracy achieved with each iteration
 
 # How to Run
 
 - Open MLP_UCMercedLandUse.ipynb and download Results/Final_Model.pth
-- [Download PNG version of UC Merced Land Use dataset] (https://drive.google.com/drive/folders/15U4qIUKTZmD7lPufNeRKV6nQCDW6L7RP?usp=sharing)
+- [Download PNG version of UC Merced Land Use dataset](https://drive.google.com/drive/folders/15U4qIUKTZmD7lPufNeRKV6nQCDW6L7RP?usp=sharing)
 
 Access trained model by either:
 1. Training from scratch running imports, data import & transform, first model definition & initialization, training code sections
